@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launcha.png" translatesAutoresizingMaskIntoConstraints="NO" id="3o4-Ez-eWg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gIcon128.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Py-Dc-RtO">
+                    <rect key="frame" x="42" y="80" width="128" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="2Py-Dc-RtO" secondAttribute="height" multiplier="1:1" id="eHM-Fa-FRz"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="word.png" translatesAutoresizingMaskIntoConstraints="NO" id="3E9-hz-sRS">
+                    <rect key="frame" x="92" y="99" width="275" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="3E9-hz-sRS" secondAttribute="height" multiplier="55:18" id="qxY-3X-bfI"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3o4-Ez-eWg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="16o-CA-tKg"/>
+                <constraint firstAttribute="trailing" secondItem="3E9-hz-sRS" secondAttribute="trailing" constant="8" id="1UY-WC-53G"/>
+                <constraint firstItem="3o4-Ez-eWg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="DJH-ie-BHH"/>
+                <constraint firstItem="3E9-hz-sRS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="99" id="I0S-Dd-Rbf"/>
+                <constraint firstItem="2Py-Dc-RtO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="L5p-XO-AJM"/>
+                <constraint firstAttribute="bottom" secondItem="3o4-Ez-eWg" secondAttribute="bottom" id="Lmp-2R-eWt"/>
+                <constraint firstItem="2Py-Dc-RtO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="42" id="Vze-Ii-77m"/>
+                <constraint firstItem="3E9-hz-sRS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="92" id="gCC-K6-uVZ"/>
+                <constraint firstAttribute="trailing" secondItem="3o4-Ez-eWg" secondAttribute="trailing" id="i8V-Zy-dqw"/>
+                <constraint firstAttribute="trailing" secondItem="2Py-Dc-RtO" secondAttribute="trailing" constant="205" id="pJi-7D-KT7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Launcha.png" width="600" height="601"/>
+        <image name="gIcon128.png" width="128" height="128"/>
+        <image name="word.png" width="285" height="90"/>
+    </resources>
+</document>

@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  DrawGif
+//
+//  Created by ibokan on 15/9/1.
+//  Copyright (c) 2015年 rick. All rights reserved.
+//
+
+#import <Availability.h>
+#ifndef DrawGif_PrefixHeader_pch
+#define DrawGif_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define Screen_Width [UIScreen mainScreen].bounds.size.width
+#define Screen_Height [UIScreen mainScreen].bounds.size.height
+
+#define ColorChangeNotification @"ColorChangeNotification"
+#define LineWithChangeNotification @"LineWithChangeNotification"
+#define RepealNotification @"RepealNotification"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#define Tencent_AppKey @"idURRS08mpozzCHg"
+#define Tencent_AppID @"1104779043"
+#endif
